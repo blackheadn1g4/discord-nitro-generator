@@ -12,6 +12,7 @@ from pystyle import *
 #colors
 
 green = fg('green')
+red = fg('red')
 
 
 #intro
@@ -58,7 +59,7 @@ Anime.Fade(
 )
 
 
-print(green + """
+print(red + """
 ▓█████▄  ██▓  ██████  ▄████▄   ▒█████   ██▀███  ▓█████▄                       
 ▒██▀ ██▌▓██▒▒██    ▒ ▒██▀ ▀█  ▒██▒  ██▒▓██ ▒ ██▒▒██▀ ██▌                      
 ░██   █▌▒██▒░ ▓██▄   ▒▓█    ▄ ▒██░  ██▒▓██ ░▄█ ▒░██   █▌                      
@@ -105,7 +106,7 @@ with open("Nitro Codes.txt", "w", encoding='utf-8') as file:
             k = 16
         ))
 
-        file.write(green + f"https://discord.gift/{code}\n")
+        file.write(f"https://discord.gift/{code}\n")
 
     print(f"Generated {num} codes")
     

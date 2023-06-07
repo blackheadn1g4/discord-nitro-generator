@@ -9,7 +9,7 @@
   <h1 align="center"> 🖥️ SETUP </h1><br>
 
 
-  
+* pip install pystyle
 * pip install colored
 * git clone https://github.com/blackheadn1g4/discord-nitro-generator.git
 * cd discord-nitro-generator
